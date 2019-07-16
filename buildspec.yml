@@ -8,5 +8,5 @@ phases:
       - dotnet publish basic-web-app/basic-web-app.csproj -o site
 artifacts:
   files:
-    - basic-web-app/site/**/*
-    - basic-web-app/aws-windows-deployment-manifest.json
+    - deployment-app-csharp/basic-web-app/site/**/*
+    - deployment-app-csharp/basic-web-app/aws-windows-deployment-manifest.json
