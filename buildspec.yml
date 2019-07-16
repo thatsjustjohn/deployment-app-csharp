@@ -7,8 +7,7 @@ phases:
       - dotnet restore basic-web-app/basic-web-app.csproj
       - dotnet build basic-web-app/basic-web-app.csproj
       - dotnet publish basic-web-app/basic-web-app.csproj -o site
-      - cp ./basic-web-app/aws-windows-deployment-manifest.json ./basic-web-app/site/.
 artifacts:
   files:
-    - '**/*'
-  base-directory: './basic-web-app/site'
+    - basic-web-app/site/**/*
+    - basic-web-app/aws-windows-deployment-manifest.json
