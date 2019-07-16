@@ -11,4 +11,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: 'site'
+  base-directory: './basic-web-app/site'
