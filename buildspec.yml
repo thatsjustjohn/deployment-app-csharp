@@ -1,15 +1,13 @@
 version: 0.2
 
 phases:
-  install:
-    runtime-versions:
-      dotnet: 2.2
+
   build:
     commands:
-      - dotnet restore basic-web-app/basic-web-app.csproj
-      - dotnet build basic-web-app/basic-web-app.csproj
-      - dotnet publish basic-web-app/basic-web-app.csproj -o site
+      - dotnet restore
+      - dotnet build
+      - dotnet publish
 artifacts:
   files:
-    - deployment-app-csharp/basic-web-app/site/**/*
+    - ./basic-web-app/site/**/*
     - deployment-app-csharp/basic-web-app/aws-windows-deployment-manifest.json
