@@ -9,4 +9,4 @@ phases:
 artifacts:
   files:
     - ./basic-web-app/site/**/*
-    - deployment-app-csharp/basic-web-app/aws-windows-deployment-manifest.json
+    - ./basic-web-app/aws-windows-deployment-manifest.json
