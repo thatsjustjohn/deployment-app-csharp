@@ -4,7 +4,6 @@ phases:
 
   build:
     commands:
-      - dotnet restore
       - dotnet build
       - dotnet publish
 artifacts:
