@@ -1,8 +1,8 @@
 # Simple C# Web Application
 
 ## Build 
-- Run the build to generate the file
-  - `dotnet build`
+- Run the build to generate the .jar file 
+  - ``
   
 ## Run
 - Execute the application 
